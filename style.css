@@ -1,0 +1,1018 @@
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.navbar{
+    width: 103%;
+    height: 70px;
+    margin-left: -15px;
+    background: white !important;
+}
+.navbar-brand img{
+    width: 100px;
+    margin-top: -10px;
+}
+.collapse{
+    margin-left: 100px;
+}
+.collapse ul li a{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.collapse ul li a:hover{
+   color: #FFA500 !important;
+}
+.dropdown-menu{
+    width: 100%;
+    border: 0;
+    box-shadow: 0 10px 15px rgba(25,25,25,0.1) !important;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+.btn-warning{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 125px;
+    height: 36px;
+    color: black;
+    letter-spacing: 1px;
+    margin-right: 25px;
+}
+/* Main Section */
+
+.Main-Sec{
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;  
+}
+.main{
+    margin-left: -35px !important;
+}
+.Main-Text h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+.Blk{
+    display: none;
+}
+.Main-Text p{
+    width: 100%;
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+.Main , .Main-Button{
+    width: 100%;
+    text-align: center;
+}
+.btn-1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    border: 1px solid #00095e;
+    background-image: -webkit-linear-gradient(30deg, #00095e 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #0c0c1f 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    /* margin-left: 390px; */
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.btn-1:hover{
+    background-position: 100%;
+    color: #00095e;
+}
+.btn-2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    border: 1px solid #E3813B;
+    background-image: linear-gradient(30deg, #e08747 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.btn-2:hover{
+    background-position: 100%;
+    color: #00095e;
+}
+.Main img{
+    width: 650px !important;
+    margin-top: 30px;
+}
+.First img{
+    width: 100%;
+    height: 240px;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(25,25,25,0.1)
+}
+.Second img{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(25,25,25,0.1)
+}
+/* Main Section */
+
+/* Course Section */
+
+.Course{
+    height: 100% !important;
+    background-color: #E3813B;
+    margin-top: 120px;
+    overflow: hidden;
+    padding: 15px 15px;
+}
+.Course-Head{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+}
+.Card1{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.Card1:hover{
+    background-color: #E3813B;
+    border: 1px solid #fff;
+}
+.Card1:hover.Card1 p{
+   color: #fff;
+}
+.Card2{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.Card2:hover{
+    background-color: #E3813B;
+    border: 1px solid #fff;
+}
+.Card2:hover.Card2 p{
+   color: #fff;
+}
+.Card1 img{
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Card2 img{
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.Card1 p{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.Card2 p{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.btn-3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    border: 1px solid #fff;
+    background-image: -webkit-linear-gradient(30deg, #E3813B 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #e08747 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 8px 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.btn-3:hover{
+    background-position: 100%;
+    color: #00095e;
+}
+.Card-Btn{
+    width: 100%;
+    text-align: center;
+}
+.btn-4{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E3813B;
+    border: 1px solid #fff;
+    background-image: -webkit-linear-gradient(30deg, #fff 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #fff 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    /* margin-left: 420px; */
+    margin-top: 60px;
+    padding: 8px 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.btn-4:hover{
+    background-position: 100%;
+    color: #fff;
+}
+/* Course Section */
+
+/* Course Section-2 */
+
+.Coach h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.Coach p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 2.1;
+}
+.btn-5{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #fff;
+    border: 1px solid #E3813B;
+    background-image: -webkit-linear-gradient(30deg, #E3813B 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #e08747 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.btn-5:hover{
+    background-position: 100%;
+    color: #00095e;
+}
+.Coach-Img{
+    width: 100%;
+    height: 100%;
+}
+.Coach-Img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.Events{
+    height: auto;
+    background-color: #E3813B;
+    margin-top: 50px;
+    padding: 15px 15px;
+}
+.Event-Img{
+    width: 100%;
+    height: 100%;
+}
+.Event-Img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Event-Text h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+.Event-Text p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.Event-Button{
+    text-align: center;
+}
+.btn-6{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #FFA500;
+    border: 1px solid #fff;
+    background-image: -webkit-linear-gradient(30deg, #fff 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #fff 30%, transparent 100%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.btn-6:hover{
+    background-position: 100%;
+    background-color: #00095e;
+    color: #fff;
+    border: none;
+}
+/* Course Section-2 */
+
+/* Service Section */
+
+.Service-Head{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 80px;
+}
+.Box-1{
+    width: 100%;
+    height: 328px;
+    padding: 15px 14px;
+    /* margin-left: -5px; */
+    margin-top: 50px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    overflow: hidden;
+}
+.Box-1 h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+.Box-1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.But{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btn-7{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #fff;
+    border: 1px solid #E3813B;
+    background-image: -webkit-linear-gradient(30deg, #E3813B 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #e08747 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.btn-7:hover{
+    background-position: 100%;
+    color: #00095e;
+}
+/* Service Section */
+
+/* Testimonial Section */
+
+.Testimonial-Head{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 80px;
+}
+.Test-1{
+    width: 100%;
+    height: 270px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border: 3px solid #E3813B;
+    border-radius: 5px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    cursor: pointer;
+}
+.Test-1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 5px;
+    line-height: 1.8;
+}
+.Stars{
+    width: 100%;
+    text-align: center;
+}
+.icons{
+    position: relative;
+}
+.icons ul{
+    position: absolute;
+    left: 20%;
+    text-align: center;
+}
+.icons ul li{
+    list-style: none;
+    margin-left: 5px;
+    float: left;
+    cursor: pointer;
+    color: #fec42d;
+    text-align: center;
+}
+.icons ul li a{
+    text-decoration: none;
+    color: #fec42d;
+    text-align: center;
+}
+.Test{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    position: static;
+}
+.Test img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.carousel-item{
+    height: 400px;
+}
+/* Testimonial Section */
+
+/* Team Section */
+
+.Team{
+    margin-top: 100px;
+    height: auto;
+    background-color: #E3813B;
+    overflow: hidden;
+    padding: 15px 10px;
+}
+.Team h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+.Team-Card-1{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: -3px;
+    padding: 15px 10px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+    text-align: center;
+}
+.Team-Card-1 img{
+    width: 95%;
+    height: 256px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.Team-Card-1 h2{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.Team-Card-1 span{
+    font-size: 32px;
+    color: #E3813B;
+    text-align: center;
+}
+.Team-Card-1:hover.Team-Card-1 span{
+    color: #3b5998;
+}
+.Team-Card-1:hover{
+    border: 1px solid #00095e;
+}
+.Team-Card-1:hover.Team-Card-1 h2{
+    color: #FFA500;
+}
+.Team-Card-1 p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+/* Team Section */
+
+/* Contact Section */
+.Contact{
+    height: auto;
+}
+.Contact h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 80px;
+}
+.Contact-Input{
+    margin-top: 100px;
+}
+.name{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 16px;
+    color: #FFA500;
+    margin-top: 15px;
+}
+.Message{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 16px;
+    color: #FFA500;
+}
+.form-control{
+    border: 1px solid #E3813B;
+}
+.form-group{
+    margin-top: 30px;
+}
+.button{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .4s cubic-bezier(0, 0.22, 0.3, 1);
+    border-radius: 10px;
+    border: 1px solid #e08747;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.button span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 9;
+    text-transform: uppercase;
+    transition: color 2.3s;
+}
+.btn1{
+    background-color: #E3813B;
+}
+.button .back{
+    position: absolute;
+    width: 0;
+    height: 0;
+    filter: url(#cloudFilter);
+    border-radius: 50%;
+    z-index: 5;
+    background-color: #fff;
+    transition: all 2s cubic-bezier(0.1, 0.22, 0.3, 1);
+}
+.btn1 .back {
+    top: -50%;
+    right: -50%;
+}
+.button:hover .back{
+    width: calc(2 * 450px);
+    height: calc(2 * 60px);
+}
+.button:hover span{
+   color: #495057;
+}
+.form-control:focus{
+    border-color: #E3813B;
+    box-shadow: none;
+}
+.Map{
+    margin-top: 80px;
+}
+.gmap_canvas {
+    margin-top: 30px;
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:350px;
+}
+.gmap_iframe {
+    height:600px!important;
+}
+.Contact-Box-1{
+    width: 100%;
+    height: 220px;
+    margin-top: 80px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    overflow: hidden;
+}
+.SPace{
+    margin-top: 30px;
+}
+.Map-I{
+    font-size: 32px;
+    color: #E3813B;
+    text-align: center;
+}
+.Contact-Box-1 span{
+    margin-left: 135px;
+    font-size: 32px;
+    color: #E3813B;
+    text-align: center;
+}
+.Contact-Box-1 p{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+
+/* Footer Section */
+
+.Footer{
+    height: auto;
+    background-color: #000075;
+    margin-top: 70px;
+}
+.First-Side img{
+    width: 110px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.First-Side p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 25px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.Branch{
+    margin-left: 30px;
+}
+.Branch h3{
+    text-align: start;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 115px;
+}
+.Location ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 15px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+.Location ul li:hover{
+    color: #fec42d;
+}
+.Course-Details h3{
+    text-align: start;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 115px;
+    margin-left: 25px;
+}
+.Cour ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.Cour ul li:hover{
+    color: #fec42d;
+}
+.Others{
+    margin-left: -30px;
+}
+.Others h3{
+    text-align: start;
+    color: white;
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 115px;
+    margin-left: 40px;
+}
+.Others ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.Others ul li:hover{
+    color: #fec42d;
+}
+.Footer-img{
+    width: 100%;
+    text-align: center;
+}
+.Footer-img img{
+    margin-top: 80px;
+}
+/* Footer Section */
+@media screen and (min-width:320px) and (max-width:575px){
+    .navbar{
+        width: 320px;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .collapse{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .navbar-collapse{
+        width: 100%;
+        background-color: #54595F;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 15px;
+        padding: 15px 20px;
+    }
+    .collapse ul li a{
+        margin-left: 0px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 18px;
+    }
+    .btn-warning{
+        display: none;
+    }
+    /* .Main-Text{
+        width: 320px;
+    } */
+    .Main-Text h1{
+        margin-left: 35px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .Blk{
+        display: block;
+    }
+    .Main-Text p{
+        margin-left: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .Main{
+        width: 320px;
+    }
+    .btn-1{
+        margin-left: 42px;
+    }
+    .Main img{
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .First img ,  .Second img{
+        margin-left: -13px;
+        margin-top: 10px;
+        width: 110%;
+    }
+    .Course{
+        height: auto !important;
+        margin-top: 50px;
+        padding: 15px 0px;
+    }
+    .Course-Head{
+        font-size: 35px;
+    }
+    .Card1 , .Card2{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    /* .Card2{
+        width: 100%;
+        height: auto;
+        margin-left: -7px;
+    } */
+    .Coach{
+        width: 100%;
+    }
+    .Coach h1{
+        font-size: 32px;
+        margin-top: 40px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .Coach p{
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+        margin-left: 0px;
+    }
+    .btn-5{
+        margin-left: 75px;
+    }
+    .Coach-Img img ,  .Event-Img img{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .Events{
+        width: 100%;
+        height: auto;
+        padding: 15px 10px;
+    }
+    .Event-Text h1{
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    .Event-Text p{
+        font-size: 16px;
+    }
+    .btn-6{
+        width: 100%;
+        margin-left: 0;
+    }
+    .button{
+        width: 100%;
+    }
+    .Box-1{
+        margin-top: 20px;
+    }
+    .Test-1{
+        margin-left: 0px;
+        margin-top: 75px;
+    }
+    .Test-1 p{
+        margin-top: 40px;
+    }
+    .Test img{
+        margin-top: 30px;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 480px;
+        padding: 15px 10px;
+    }
+    .Team{
+        height: auto;
+        margin-top: 70px;
+        padding: 25px 0px;
+    }
+    .Team-Card-1{
+        margin-left: 0px;
+    }
+    .Team-Card-1 img{
+        margin-left: 10px;
+    }
+    .Team-Card-9{
+        margin-left: -10px;
+    }
+    .Team-Card-9 img{
+        margin-left: 10px;
+    }
+    .Contact-Input{
+        margin-top: 50px;
+    }
+    .form-control{
+       width: 290px;
+    }
+    .Map{
+        height: 400px;
+    }
+    .gmap_iframe{
+        height: 400px !important;
+    }
+    .Contact-Box-1{
+        margin-top: 40px;
+        height: auto;
+        padding: 10px 10px;
+    }
+    .SPace{
+        margin-top: 20px;
+    }
+    .Footer{
+        height: auto;
+        margin-top: 40px;
+    }
+    .First-Side img{
+        margin-left: 80px;
+    }
+    .First-Side p{
+        margin-left: 0px;
+    }
+    .Branch h3{
+        margin-left: -30px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .Location , .Cour{
+        margin-left: -35px;
+    }
+    .Course-Details h3{
+        margin-left: 0px;
+        margin-top: 35px;
+        font-size: 20px;
+    }
+    .Others h3{
+        margin-left: 30px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .Footer-img{
+        width: 100%;
+    }
+    .Footer-img img{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+}
